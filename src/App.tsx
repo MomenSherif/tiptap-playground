@@ -110,6 +110,9 @@ function EditorDemo() {
 
   return (
     <div className="px-4 w-full max-w-5xl mx-auto">
+      <h1 className="text-3xl font-bold text-center uppercase mb-5">
+        It's just a trial
+      </h1>
       <RichTextEditor
         editor={editor}
         className="sm:max-w-none border rounded w-full prose prose-sm sm:prose lg:prose-lg xl:prose-xl prose-img:inline-block bg-white"
